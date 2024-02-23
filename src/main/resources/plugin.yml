@@ -1,0 +1,17 @@
+name: Lobby
+version: '${project.version}'
+main: dev.blousy.lobby.Lobby
+api-version: '1.20'
+
+commands:
+  lobby:
+    description: Sends you to the lobby.
+    usage: /<command>
+
+  interval:
+    description: Set the save interval.
+    usage: /<command>
+    permission: Lobby.OPERATOR
+
+  switchworld:
+    description: Sends you to the specified world with specific coordinates.
